@@ -1,0 +1,60 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e1a;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#0d1b2a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1b263b;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" style="stop-color:#1e3a5f;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#0a0e1a;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a9eff;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#4a9eff;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#4a9eff;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" fill="url(#bgGrad)"/>
+  <rect width="1200" height="360" fill="url(#glowGrad)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="150" cy="80" r="120" fill="none" stroke="#4a9eff" stroke-opacity="0.06" stroke-width="1"/>
+  <circle cx="1050" cy="280" r="150" fill="none" stroke="#4a9eff" stroke-opacity="0.05" stroke-width="1"/>
+  <circle cx="1100" cy="60" r="60" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="0.8"/>
+  <circle cx="80" cy="300" r="80" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="0.8"/>
+
+  <!-- Decorative lines -->
+  <line x1="0" y1="180" x2="400" y2="180" stroke="#4a9eff" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="800" y1="180" x2="1200" y2="180" stroke="#4a9eff" stroke-opacity="0.04" stroke-width="1"/>
+
+  <!-- Small decorative dots -->
+  <circle cx="200" cy="140" r="2" fill="#4a9eff" fill-opacity="0.15"/>
+  <circle cx="950" cy="120" r="1.5" fill="#4a9eff" fill-opacity="0.2"/>
+  <circle cx="300" cy="250" r="1.5" fill="#ffffff" fill-opacity="0.08"/>
+  <circle cx="850" cy="230" r="2" fill="#ffffff" fill-opacity="0.06"/>
+  <circle cx="500" cy="100" r="1" fill="#4a9eff" fill-opacity="0.15"/>
+  <circle cx="700" cy="280" r="1.5" fill="#4a9eff" fill-opacity="0.12"/>
+
+  <!-- Accent line above headline -->
+  <rect x="450" y="105" width="300" height="2" fill="url(#accentLine)" rx="1"/>
+
+  <!-- Headline -->
+  <text x="600" y="160" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="56.0" font-weight="bold" fill="#ffffff">
+    <tspan x="600" dy="0">GLM 5.3 Flash Offline Desktop</tspan>
+  </text>
+
+  <!-- Decorative divider diamond -->
+  <rect x="595" y="195" width="10" height="10" fill="none" stroke="#4a9eff" stroke-opacity="0.5" stroke-width="1" transform="rotate(45 600 200)"/>
+
+  <!-- Tagline -->
+  <text x="600" y="250" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Offline desktop client for GLM-5.3-Flash — run private,</tspan>
+    <tspan x="600" dy="30">local chat sessions without a server connection.</tspan>
+  </text>
+
+  <!-- Bottom accent line -->
+  <rect x="350" y="310" width="500" height="1" fill="url(#accentLine)" rx="0.5"/>
+</svg>
